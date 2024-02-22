@@ -3,6 +3,8 @@ from time import sleep
 from selenium import webdriver
 
 # 建立瀏覽器物件
+# 找瀏覽器版本號對應的瀏覽器驅動程式，並放在與Python程式同一目錄
+# google搜尋關鍵字：webdriver for chorme 或 webdriver for Eage ．．．等等
 driver = webdriver.Edge()
 
 # 開啟特定網站
