@@ -17,7 +17,7 @@ driver.get("https://tw.yahoo.com/")
 sleep(0.1)
 
 # By.ID來找網頁元素 ID，找到後並使用send_keys方法來輸入文字
-driver.find_element(By.ID,'header-search-input').send_keys("python")  
+driver.find_element(By.ID,'header-search-input').send_keys("python")
 # 退出
 sleep(3)
 driver.quit()
