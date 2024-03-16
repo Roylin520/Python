@@ -1,4 +1,4 @@
-import json
+rimport json
 dictobject = {'x':60, 'y':55, 'z':90}
 fn = r'C:\Users\Roy\Documents\git\Python\Selenium\samples\CreateJson_object.json'
 with open(fn,'w') as fnObj:

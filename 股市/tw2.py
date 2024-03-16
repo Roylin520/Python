@@ -4,7 +4,7 @@ import mplfinance as mpf
 # 指定股票代碼和時間範圍
 stock_symbol = '2330.TW'  # 台積電股票代碼
 start_date = '2023-01-01'
-end_date = '2023-12-31'
+end_date = '2024-03-13'
 
 # 使用 yf.Ticker() 函數來獲取股票數據
 stock_data = yf.Ticker(stock_symbol)
